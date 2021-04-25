@@ -43,6 +43,12 @@ tasks.withType(Test) {
     }
 }
 
+task tests(type: Test) {
+    useJUnitPlatform {
+        includeTags System.getProperty('tag', 'regress')
+    }
+}
+
 test {
     useJUnitPlatform()
 }

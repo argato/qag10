@@ -8,12 +8,14 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @Owner("arina_ng")
 @Feature("Позитивные тесты")
 @Story("Тесты совсем без ошибок")
 @DisplayName("11 позитивных тестов")
+@Tag("smoke")
 public class PositiveTests {
 
   @Test

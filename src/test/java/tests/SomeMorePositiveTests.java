@@ -8,6 +8,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 
@@ -15,6 +16,7 @@ import org.junit.jupiter.api.Test;
 @Feature("Позитивные тесты")
 @Story("Еще немного позитивных тестов")
 @DisplayName("9 тестов")
+@Tag("regress")
 public class SomeMorePositiveTests {
 
   @Test

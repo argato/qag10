@@ -9,12 +9,14 @@ import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @Owner("arina_ng")
 @Feature("Позитивные тесты")
 @Story("10ть позитивных тестов")
 @DisplayName("Отключенные тесты")
+@Tag("regress")
 public class DisabledTests {
 
   @Test
